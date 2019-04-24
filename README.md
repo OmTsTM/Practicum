@@ -9,8 +9,7 @@ Baixe todos os arquivos do GitHub e deixe-os no mesmo diretório.
 
 * Windows: No Windows é necessário que a pasta bin do JDK esteja configurada nas variáveis de ambiente. Garantindo isto, basta executar o arquivo .bat "executeOnWindows.bat" e uma janela CMD abrirá, pronta para utilizar o programa (o script também compila as classes antes de executar);
 
-* Linux: No Linux é necessário conceder permissões de escrita e leitura ao arquivo shell (.sh) "executeOnLinux.sh". Para fazer isto, abra o terminal do Linux e mude o diretório para onde os arquivos estão. Após isto, execute o comando: chmod +x executeOnLinux.sh 
-Já com as permissões concedidas, agora podemos executar o script .sh com o comando: ./executeOnLinux
+* Linux: No Linux é necessário conceder permissões de escrita e leitura ao arquivo shell (.sh) "executeOnLinux.sh". Para fazer isto, abra o terminal do Linux e mude o diretório para onde os arquivos estão. Após isto, execute o comando: chmod +x executeOnLinux.sh . Já com as permissões concedidas, agora podemos executar o script .sh com o comando: ./executeOnLinux
 
 * Mac: No Mac a única solução que encontrei foi executar o .jar buildado pelo NetBeans (IDE). Portanto, acredito eu, basta abrir um terminal, ir até a pasta (change directory) onde estão os arquivos e executar o comando: ./executeOnMac
 
