@@ -1,7 +1,6 @@
 # Practicum
 
-Programa desenvolvido para a vaga de estágio.
-Autor: Matteus Takeshi Dias
+Programa desenvolvido por Matteus Takeshi Dias para a vaga de estágio.
 
 ## Como executar?
 Preparei 3 arquivos a fim de executar em "qualquer" SO (Linux, Windows ou Mac). 
