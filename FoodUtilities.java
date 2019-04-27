@@ -26,9 +26,9 @@ public class FoodUtilities {
     public void readVect() {
         this.str = sc.nextLine();
 		
-		if ( this.str.equals("-1") ) {
-			System.exit(0);
-		}
+        if ( this.str.equals("-1") ) {
+                System.exit(0);
+        }
 		
         orderVect();
     }
@@ -82,10 +82,13 @@ public class FoodUtilities {
             else {
                 switch( v ) {
                     case 1:
-                        if ( m ) {
+                        if ( (m) && (count_err == 0) ) {
                             System.out.print(morning_menu[0]);
                         } else if ( (n) && (count_err == 0) ) {
                             System.out.print(night_menu[0]);
+                        }
+                        else {
+                            error = true;
                         }
                         
                         count_err++;
@@ -93,10 +96,12 @@ public class FoodUtilities {
 
                     case 2:
                         if ( m ) {
-                            if ( count_err == 0 ) {
+                            if ( (count_err == 0) && (count_err2 == 0) ) {
                                 System.out.print(morning_menu[1]);
-                            } else {
+                            } else if( count_err2 == 0 ) {
                                 System.out.print(", " + morning_menu[1]);
+                            } else {
+                                error = true;
                             }
                         }
    
