@@ -1,2 +1,2 @@
 #!/bin/sh
-java -jar Program.jar
+java -jar Practicum.jar
