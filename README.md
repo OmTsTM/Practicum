@@ -11,7 +11,7 @@ Baixe todos os arquivos do GitHub e deixe-os no mesmo diretório.
 
 * Linux: No Linux é necessário conceder permissões de escrita e leitura ao arquivo shell (.sh) "executeOnLinux.sh". Para fazer isto, abra o terminal do Linux e mude o diretório para onde os arquivos estão. Após isto, execute o comando: chmod +x executeOnLinux.sh . Já com as permissões concedidas, agora podemos executar o script .sh com o comando: ./executeOnLinux.sh
 
-* Mac: No Mac a única solução que encontrei foi executar o .jar buildado pelo NetBeans (IDE). Portanto, acredito eu, basta abrir um terminal, ir até a pasta (change directory) onde estão os arquivos e executar o comando: ./executeOnMac
+* Mac: No Mac a única solução que encontrei foi executar o .jar buildado pelo NetBeans (IDE). Portanto, acredito eu, basta abrir um terminal, ir até a pasta (change directory) onde estão os arquivos e executar o comando: ./executeOnMac.sh
 
 
 ## Sobre o Programa:
